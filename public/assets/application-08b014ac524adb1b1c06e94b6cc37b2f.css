@@ -1,0 +1,95 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+/* line 3, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Droid Serif', serif;
+}
+
+/* line 8, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+h1 {
+  font-family: 'Georgia';
+}
+
+/* line 12, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+footer {
+  margin: 15px;
+}
+
+/* line 17, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.parallax {
+  background-image: url("img/parallax-sky.jpg");
+  height: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* line 25, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.parallax h2 {
+  line-height: 300px;
+}
+
+/* line 29, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.carousel-caption {
+  margin-bottom: 125px;
+}
+
+/* line 32, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.carousel-inner > .item {
+  margin: 0 auto;
+  height: 500px;
+}
+
+/* line 36, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.carousel .item > img {
+  height: auto;
+  min-height: 500px;
+  min-width: 100%;
+}
+
+/* line 42, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.anchor {
+  padding-top: 40px;
+}
+
+/* line 46, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+#team img {
+  width: 140px;
+  height: 140px;
+}
+
+/* line 50, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.modal-content {
+  padding: 15px;
+}
+
+/* line 54, /Users/ferencinas/Desktop/startup_site/app/assets/stylesheets/styles.css.scss */
+.navbar-text > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*     This is the Jumbotron CSS - For Safety.
+
+.jumbotron { background-image: url('img/dirty.jpg'); background-position: 83% 91%; }
+.jumbotron h1{ color: white; }
+.jumbotron p { color: #E3E2DE; text-decoration: none;}
+.jumbotron strong {color: white; }
+*/
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
