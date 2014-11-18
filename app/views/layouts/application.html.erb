@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>StartupSite</title>
+  <title>Startup Site</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,5 +10,77 @@
 
 <%= yield %>
 
+<!-- ===========  footer  =========== -->
+<footer>
+  <div class="container">
+      <div class="navbar-text pull-left">
+        <ul class="list-inline">
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+
+    <!-- Large modal -->
+<button class="btn btn-default " data-toggle="modal" data-target=".bs-example-modal-lg">Terms of service</button>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <h4>Terms of Service ("Terms")</h4>
+<p>Last updated: October 27, 2014</p>
+
+<p>Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the http://machinist-alec-32224.bitballoon.com website (the "Service") operated by Taskly ("us", "we", or "our").</p>
+
+<p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
+
+<p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</p>
+
+
+<p><strong>Links To Other Web Sites</strong></p>
+
+<p>Our Service may contain links to third-party web sites or services that are not owned or controlled by Taskly.</p>
+
+<p>Taskly has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Taskly shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+
+<p>We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.</p>
+
+<p><strong>Termination</strong></p>
+
+<p>We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+
+<p>All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.</p>
+
+
+<p><strong>Governing Law</strong></p>
+
+<p>These Terms shall be governed and construed in accordance with the laws of Berlin, Germany, without regard to its conflict of law provisions.</p>
+
+<p>Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.</p>
+
+<p><strong>Changes</strong></p>
+
+<p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+
+<p>By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.</p>
+
+<p>With permission from TermsFeed.com</p>
+
+<p>If you have any questions about these Terms, please contact us.</p>
+<!--Close Button for Modal window -->
+<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div><!-- modal-footer -->
+    </div><!-- modal content -->
+  </div><!-- modal-dialog -->
+</div><!-- modal fade -->
+      </div><!-- Text pull left -->
+
+      <div class="navbar-text pull-right">
+        <a href="http://www.twitter.com/ferencinass"><i class=" fa fa-twitter fa-2x"></i></a>
+        <a href="#"><i class=" fa fa-github fa-2x"></i></a>
+        <a href="#"><i class=" fa fa-google-plus fa-2x"></i></a>
+        <p><small>&copy; Taskly 2014</small></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
 </body>
 </html>
